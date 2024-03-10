@@ -1,6 +1,6 @@
 using System;
 
-namespace SingltonLoggerExample
+namespace SingletonLoggerExample
 {
     public sealed class LoggerClass
     {
