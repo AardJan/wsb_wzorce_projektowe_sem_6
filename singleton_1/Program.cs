@@ -42,6 +42,15 @@ namespace SingletonLoggerExample
             {
                 Console.WriteLine(message);
             }
+
+            if (logger == logger2)
+            {
+                Console.WriteLine("logger and logger2 are the same instance");
+            }
+            else
+            {
+                Console.WriteLine("logger and logger2 are different instances");
+            }
         }
     }
 }
